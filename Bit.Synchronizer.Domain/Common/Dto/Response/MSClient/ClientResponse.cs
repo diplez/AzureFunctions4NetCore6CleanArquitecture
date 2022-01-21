@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Domain.Common.Dto.Response.MSClient
+namespace Bit.Synchronizer.Domain.Common.Dto.Response.MSClient
 {
     public class ClientResponse
     {        

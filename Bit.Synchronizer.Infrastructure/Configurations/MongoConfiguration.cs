@@ -1,4 +1,4 @@
-namespace Bit.Subscription.Infrastructure.Configurations 
+namespace Bit.Synchronizer.Infrastructure.Configurations 
 {
     public class MongoConfiguration {
         public string ConnectionString { get; set; }

@@ -1,9 +1,9 @@
-﻿using Bit.Client.Domain.Common.QuerysMapper;
-using Bit.Domain.Common.Dto.Response.Generic;
-using Bit.Subscription.Application.Licence.Querys;
-using Bit.Subscription.Domain.Common.Dto;
-using Bit.Subscription.Domain.Common.Interfaces.Repositories;
-using Bit.Subscription.Domain.Common.Interfaces.Services;
+﻿using Bit.Domain.Common.Dto.Response.Generic;
+using Bit.Synchronizer.Application.Licence.Querys;
+using Bit.Synchronizer.Domain.Common.Dto;
+using Bit.Synchronizer.Domain.Common.Interfaces.Repositories;
+using Bit.Synchronizer.Domain.Common.Interfaces.Services;
+using Bit.Synchronizer.Domain.Common.QuerysMapper;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -13,7 +13,7 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Application.Licence.Handlers
+namespace Bit.Synchronizer.Application.Licence.Handlers
 {
     public class GetAllLicencesHandler : IRequestHandler<GetAllLicencesQuery, PagedResult<LicenceDto>>
     {

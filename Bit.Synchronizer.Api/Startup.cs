@@ -1,9 +1,9 @@
 ﻿using Autofac.Extensions.DependencyInjection;
 using AutoMapper;
-using Bit.Subscription.Domain.Common.Interfaces.Services;
-using Bit.Subscription.Infrastructure.Configurations;
-using Bit.Subscription.Infrastructure.Contexts;
-using Bit.Subscription.Infrastructure.Services.MSMonitor;
+using Bit.Synchronizer.Domain.Common.Interfaces.Services;
+using Bit.Synchronizer.Infrastructure.Configurations;
+using Bit.Synchronizer.Infrastructure.Contexts;
+using Bit.Synchronizer.Infrastructure.Services.MSMonitor;
 using FluentValidation;
 using MediatR;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
@@ -12,12 +12,12 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.IO;
 using System.Reflection;
-using Bit.Subscription.Application.Licence.Querys;
-using Bit.Subscription.Domain.Common.Interfaces.Repositories;
-using Bit.Subscription.Infrastructure.Persistence.Repositories;
+using Bit.Synchronizer.Domain.Common.Interfaces.Repositories;
+using Bit.Synchronizer.Infrastructure.Persistence.Repositories;
+using Bit.Synchronizer.Application.Licence.Querys;
 
-[assembly: FunctionsStartup(typeof(Bit.Client.Api.Startup))]
-namespace Bit.Client.Api
+[assembly: FunctionsStartup(typeof(Bit.Synchronizer.Api.Startup))]
+namespace Bit.Synchronizer.Api
 {
     public class Startup : FunctionsStartup
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Infrastructure.Services.MSClient
+namespace Bit.Synchronizer.Infrastructure.Services.MSClient
 {
     public class MSClientConfiguration
     {

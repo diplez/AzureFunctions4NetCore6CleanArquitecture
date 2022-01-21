@@ -1,14 +1,12 @@
-﻿using Bit.Client.Domain.Common.QuerysMapper;
-using Bit.Domain.Common.Dto.Response.Generic;
-using Bit.Subscription.Domain.Common.Dto;
-using Bit.Subscription.Domain.Common.Entities;
+﻿using Bit.Domain.Common.Dto.Response.Generic;
+using Bit.Synchronizer.Domain.Common.Dto;
+using Bit.Synchronizer.Domain.Common.Entities;
+using Bit.Synchronizer.Domain.Common.QuerysMapper;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Domain.Common.Interfaces.Repositories
+namespace Bit.Synchronizer.Domain.Common.Interfaces.Repositories
 {
     public interface ILicenceRepository 
     {

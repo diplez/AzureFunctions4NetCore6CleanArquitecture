@@ -2,7 +2,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore;
 
-namespace Bit.Client.Api
+namespace Bit.Synchronizer.Api
 {
     public class Program
     {

@@ -1,11 +1,11 @@
-﻿using Bit.Subscription.Domain.Common.Dto.Response.MSContract;
+﻿using Bit.Synchronizer.Domain.Common.Dto.Response.MSContract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Domain.Common.Interfaces.Services
+namespace Bit.Synchronizer.Domain.Common.Interfaces.Services
 {
     public interface IMSContractService
     {

@@ -1,19 +1,18 @@
-﻿using Bit.Client.Domain.Common.QuerysMapper;
-using Bit.Domain.Common.Dto.Response.Generic;
+﻿using Bit.Domain.Common.Dto.Response.Generic;
 using Bit.Domain.Utils;
-using Bit.Subscription.Domain.Common.Constants;
-using Bit.Subscription.Domain.Common.Dto;
-using Bit.Subscription.Domain.Common.Entities;
-using Bit.Subscription.Domain.Common.Interfaces.Repositories;
-using Bit.Subscription.Infrastructure.Contexts;
+using Bit.Synchronizer.Domain.Common.Constants;
+using Bit.Synchronizer.Domain.Common.Dto;
+using Bit.Synchronizer.Domain.Common.Entities;
+using Bit.Synchronizer.Domain.Common.Interfaces.Repositories;
+using Bit.Synchronizer.Domain.Common.QuerysMapper;
+using Bit.Synchronizer.Infrastructure.Contexts;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Infrastructure.Persistence.Repositories
+namespace Bit.Synchronizer.Infrastructure.Persistence.Repositories
 {
     public class LicenceRepository : ILicenceRepository
     {

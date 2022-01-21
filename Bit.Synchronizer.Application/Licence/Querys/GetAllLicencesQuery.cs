@@ -1,6 +1,6 @@
 ﻿using Bit.Domain.Common.Dto.Response.Generic;
-using Bit.Subscription.Domain.Common.Dto;
-using Bit.Subscription.Domain.Common.Interfaces.Querys;
+using Bit.Synchronizer.Domain.Common.Interfaces.Querys;
+using Bit.Synchronizer.Domain.Common.Dto;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Application.Licence.Querys
+namespace Bit.Synchronizer.Application.Licence.Querys
 {
     public class GetAllLicencesQuery : IRequest<PagedResult<LicenceDto>>, IPagedQuery
     {

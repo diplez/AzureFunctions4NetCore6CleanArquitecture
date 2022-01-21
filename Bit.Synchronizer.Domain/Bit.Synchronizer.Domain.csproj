@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Common\Dto\Response\SwaggerModels\" />
     <Folder Include="Common\Interfaces\Entities\" />
   </ItemGroup>
 

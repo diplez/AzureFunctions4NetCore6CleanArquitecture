@@ -1,6 +1,5 @@
 ﻿using Autofac;
-using Bit.Subscription.Application.Licence.Querys;
-using Blog.Service.BlogApi.Application.Behaviours;
+using Bit.Synchronizer.Application.Behaviours;
 using MediatR;
 using System.Reflection;
 

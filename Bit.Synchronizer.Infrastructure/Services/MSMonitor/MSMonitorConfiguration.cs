@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Infrastructure.Services.MSMonitor
+namespace Bit.Synchronizer.Infrastructure.Services.MSMonitor
 {
     public class MSMonitorConfiguration
     {

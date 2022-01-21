@@ -1,4 +1,4 @@
-﻿using Bit.Subscription.Domain.Common.Interfaces.Services;
+﻿using Bit.Synchronizer.Domain.Common.Interfaces.Services;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Infrastructure.Services.Email
+namespace Bit.Synchronizer.Infrastructure.Services.Email
 {
     public class EmailService : IEmailService
     {

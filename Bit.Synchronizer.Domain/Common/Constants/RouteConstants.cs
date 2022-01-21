@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Domain.Common.Constants
+namespace Bit.Synchronizer.Domain.Common.Constants
 {
     public class RouteConstants
     {

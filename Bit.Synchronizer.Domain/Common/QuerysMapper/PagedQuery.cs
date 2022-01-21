@@ -1,11 +1,6 @@
-﻿using Bit.Subscription.Domain.Common.Interfaces.Querys;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Bit.Synchronizer.Domain.Common.Interfaces.Querys;
 
-namespace Bit.Client.Domain.Common.QuerysMapper
+namespace Bit.Synchronizer.Domain.Common.QuerysMapper
 {
     public class PagedQuery : IPagedQuery
     {

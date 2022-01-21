@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Domain.Common.Interfaces.Querys
+namespace Bit.Synchronizer.Domain.Common.Interfaces.Querys
 {
     public interface IPagedQuery
     {

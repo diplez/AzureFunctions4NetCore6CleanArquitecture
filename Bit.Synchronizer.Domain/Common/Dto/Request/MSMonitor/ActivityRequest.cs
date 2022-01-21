@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Domain.Common.Dto.Request.MSMonitor
+namespace Bit.Synchronizer.Domain.Common.Dto.Request.MSMonitor
 {
     public class ActivityRequest
     {

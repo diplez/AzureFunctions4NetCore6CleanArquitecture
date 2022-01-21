@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Application.Behaviours
+namespace Bit.Synchronizer.Application.Behaviours
 {
     public class HttpResponseBody<T>
     {

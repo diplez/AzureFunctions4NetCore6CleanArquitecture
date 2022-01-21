@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Blog.Service.BlogApi.Application.Exceptions
+namespace Bit.Synchronizer.Application.Exceptions
 {
     public class ItemNotFoundException : Exception
     {

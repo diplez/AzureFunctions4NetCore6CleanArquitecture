@@ -3,15 +3,15 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Bit.Subscription.Application.Licence.Querys;
-using Bit.Subscription.Domain.Common.Interfaces.Services;
+using Bit.Synchronizer.Domain.Common.Interfaces.Services;
+using Bit.Synchronizer.Application.Licence.Querys;
 using MediatR;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.OpenApi.Core.Attributes;
 using Microsoft.Azure.WebJobs.Extensions.OpenApi.Core.Enums;
 using Microsoft.Extensions.Logging;
 
-namespace Bit.Subscription.Api.Workers
+namespace Bit.Synchronizer.Api.Workers
 {
     public class FunctionClientWorker
     {

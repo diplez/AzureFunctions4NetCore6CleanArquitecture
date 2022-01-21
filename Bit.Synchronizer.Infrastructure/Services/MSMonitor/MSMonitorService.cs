@@ -1,7 +1,7 @@
 ﻿using Bit.Domain.Common.Dto.Response.Generic;
-using Bit.Subscription.Domain.Common.Dto.Request.MSMonitor;
-using Bit.Subscription.Domain.Common.Enums;
-using Bit.Subscription.Domain.Common.Interfaces.Services;
+using Bit.Synchronizer.Domain.Common.Dto.Request.MSMonitor;
+using Bit.Synchronizer.Domain.Common.Enums;
+using Bit.Synchronizer.Domain.Common.Interfaces.Services;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using RestSharp;
@@ -11,9 +11,9 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using static Bit.Subscription.Domain.Common.Enums.MonitorEnums;
+using static Bit.Synchronizer.Domain.Common.Enums.MonitorEnums;
 
-namespace Bit.Subscription.Infrastructure.Services.MSMonitor
+namespace Bit.Synchronizer.Infrastructure.Services.MSMonitor
 {
     public class MSMonitorService : IMSMonitorService
     {

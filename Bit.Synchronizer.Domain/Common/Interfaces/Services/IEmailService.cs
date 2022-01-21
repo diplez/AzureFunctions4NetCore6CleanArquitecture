@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Domain.Common.Interfaces.Services
+namespace Bit.Synchronizer.Domain.Common.Interfaces.Services
 {
     public interface IEmailService
     {

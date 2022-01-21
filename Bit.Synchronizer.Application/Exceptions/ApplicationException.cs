@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Blog.Service.BlogApi.Application.Exceptions
+namespace Bit.Synchronizer.Application.Exceptions
 {
     public class ApplicationException : Exception
     {

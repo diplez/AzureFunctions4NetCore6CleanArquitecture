@@ -1,10 +1,10 @@
 using MongoDB.Driver;
 using Microsoft.Extensions.Options;
-using Bit.Subscription.Domain.Common.Constants;
-using Bit.Subscription.Infrastructure.Configurations;
-using Bit.Subscription.Domain.Common.Entities;
+using Bit.Synchronizer.Domain.Common.Entities;
+using Bit.Synchronizer.Domain.Common.Constants;
+using Bit.Synchronizer.Infrastructure.Configurations;
 
-namespace Bit.Subscription.Infrastructure.Contexts
+namespace Bit.Synchronizer.Infrastructure.Contexts
 {
     public interface IMongoContext
     {

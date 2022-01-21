@@ -1,6 +1,7 @@
 ﻿using Bit.Domain.Common.Dto.Response.Generic;
-using Bit.Subscription.Domain.Common.Dto.Response.MSClient;
-using Bit.Subscription.Domain.Common.Interfaces.Services;
+using Bit.Synchronizer.Domain.Common.Dto.Response.MSClient;
+using Bit.Synchronizer.Domain.Common.Interfaces.Services;
+using Bit.Synchronizer.Infrastructure.Services.MSClient;
 using Newtonsoft.Json;
 using RestSharp;
 using System;
@@ -9,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Infrastructure.Services.MSClient
+namespace Bit.Synchronizer.InfrastructureInfrastructure.Services.MSClient
 {
     public class MSClientService : IMSClientService
     {

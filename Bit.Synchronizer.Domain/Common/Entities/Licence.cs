@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Domain.Common.Entities
+namespace Bit.Synchronizer.Domain.Common.Entities
 {
     public class Licence : BaseEntity
     {

@@ -1,4 +1,4 @@
-namespace Bit.Subscription.Domain.QueryMapper
+namespace Bit.Synchronizer.Domain.QueryMapper
 {
     public class QueryOptions
     {

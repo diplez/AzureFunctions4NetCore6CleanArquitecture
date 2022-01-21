@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Infrastructure.Services.Email
+namespace Bit.Synchronizer.Infrastructure.Services.Email
 {
     public class EmailConfiguration
     {

@@ -1,6 +1,6 @@
 ﻿using Bit.Domain.Common.Dto.Response.Generic;
-using Bit.Subscription.Domain.Common.Dto.Response.MSContract;
-using Bit.Subscription.Domain.Common.Interfaces.Services;
+using Bit.Synchronizer.Domain.Common.Dto.Response.MSContract;
+using Bit.Synchronizer.Domain.Common.Interfaces.Services;
 using Newtonsoft.Json;
 using RestSharp;
 using System;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit.Subscription.Infrastructure.Services.MSContract
+namespace Bit.Synchronizer.Infrastructure.Services.MSContract
 {
     public class MSContractService : IMSContractService
     {
